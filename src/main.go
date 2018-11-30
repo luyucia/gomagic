@@ -43,6 +43,18 @@ func main() {
 	fmt.Println(bit.Get(9))
 	fmt.Println(bit.Get(10))
 	fmt.Println(bit.Get(999))
-	fmt.Println(bit.Get(1339))
+	fmt.Println(bit.Get(1338))
+
+	test := bit.BitCount(1561651651)
+
+	totalOne := bit.Count()
+
+	rangeCount := bit.BitCountRange(5,0,64)
+
+	bit.Clear()
+
+	fmt.Print(test)
+	fmt.Print(totalOne)
+	fmt.Print(rangeCount)
 
 }
